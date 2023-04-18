@@ -1,0 +1,75 @@
+body{
+    background: #e6e6e6;
+}
+.container{
+    display: flex;
+}
+
+.container-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo{
+    width: 65%;
+    margin-top: 35%;
+}
+
+.para{
+    font-size: 135%;
+    margin-left: 7%;
+    margin-top: -3%;
+}
+
+.container-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 13%;
+    
+}
+.form{
+    height: 100%;
+    width: 75%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    padding: 3%;
+}
+.email{
+    width: 100%;
+    height: 35%;
+    margin-top: 2%;
+    margin: auto;
+}
+.password{
+    width: 100%;
+    height: 35%;
+    margin-top: 2%;
+}
+.button1{
+    background-color: #1877f2;
+    width: 100%;
+    height: 35%;
+    margin-top: 2%;
+}
+.forgot-password{
+    margin-left: 25%;
+}
+.button2{
+    width: 100%;
+    height: 35%;
+    background-color: #1877f2;
+}
+
+.para2{
+    margin-top: 21%;
+    margin-left: 18%;
+    font-size: 40%;
+}
