@@ -32,44 +32,60 @@ body{
     padding-top: 13%;
     
 }
-.form{
-    height: 100%;
-    width: 75%;
-    background: white;
+.form {
+	height: 100%;
+	width: 77%;
+	background: white;
+	margin-left: 10%;
+	padding: 2% 4% 5%;
+    margin-bottom: 1rem;
+    box-shadow: 10px 30px 40px rgba(0,0,0,.1);
+    border-radius: 10px;
+}
+.form > form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 10%;
-    padding: 3%;
 }
-.email{
-    width: 100%;
-    height: 35%;
-    margin-top: 2%;
-    margin: auto;
+.email {
+	margin-top: 2%;
+	padding: 16px 10px;
 }
-.password{
-    width: 100%;
-    height: 35%;
-    margin-top: 2%;
+.password {
+	margin-top: 4%;
+	padding: 16px 10px;
 }
 .button1{
     background-color: #1877f2;
-    width: 100%;
-    height: 35%;
-    margin-top: 2%;
+    margin-top: 1rem;
+    padding: 16px 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
 }
-.forgot-password{
-    margin-left: 25%;
+.forgot-password {
+	text-align: center;
+	padding: 10px 0;
+    font-size: 15px;
+    text-decoration: none;
 }
-.button2{
+hr{
+    color: rgb(243, 236, 236);
     width: 100%;
-    height: 35%;
-    background-color: #1877f2;
+}
+.button2 {
+	background-color: #42b72a;
+    margin-top: 1rem;
+	padding: 16px 5px;
+    width: 55%;
+    margin-left: 22%;
+    color: white;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 17px;
 }
 
 .para2{
-    margin-top: 21%;
-    margin-left: 18%;
     font-size: 40%;
+    margin-left: 6rem;
 }
