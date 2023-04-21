@@ -1,5 +1,6 @@
 body{
     background: #e6e6e6;
+    font-family: Helvetica, Arial, sans-serif;
 }
 .container{
     display: flex;
@@ -19,7 +20,7 @@ body{
 }
 
 .para{
-    font-size: 135%;
+    font-size: 23px;
     margin-left: 7%;
     margin-top: -3%;
 }
@@ -49,10 +50,16 @@ body{
 .email {
 	margin-top: 2%;
 	padding: 16px 10px;
+    font-size: 17px;
+    opacity: .4;
+    border-radius: 6px;
 }
 .password {
 	margin-top: 4%;
 	padding: 16px 10px;
+    font-size: 17px;
+    border-radius: 6px;
+    opacity: .4;
 }
 .button1{
     background-color: #1877f2;
@@ -72,6 +79,7 @@ body{
 hr{
     color: rgb(243, 236, 236);
     width: 100%;
+    opacity: .4;
 }
 .button2 {
 	background-color: #42b72a;
